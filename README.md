@@ -12,6 +12,9 @@ Once your Dockerfile is ready, you can build your Docker image by running the fo
 
 docker build -t my-dockerized-python .
 
+![1](https://github.com/user-attachments/assets/4cdee44c-7b7e-40f4-b1a0-a1e6f1d81307)
+
+
 # Step 4. Test the Docker Container Locally
 After building the image, test it locally by running the following
 
