@@ -26,6 +26,13 @@ After building the image, test it locally by running the following
 
 docker run my-dockerized-python
 
+Before building a Docker image through Visual Studio Code, you should launch Docker Desktop to ensure Docker is running properly. Make sure Docker Desktop is running.
+
+# Step 5. Check the Build in Docker Desktop
+After building, you can go to Docker Desktop and see the newly created image under the Images tab.
+
 ![2](https://github.com/user-attachments/assets/532ec4d7-0baa-4422-aea8-d6ccb401f83e)
+
+Once you've built the Docker image, you can run the image to create and run a container.
 
 ![3](https://github.com/user-attachments/assets/53675f04-027e-481d-8d4e-937cf637f096)
