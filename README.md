@@ -3,9 +3,9 @@ Sample containerized Python application for demo purposes
 
 # Repository structure
 The main files in this repository are:
-dockerfile - Specifies how the application is built and packaged
-app.py - Python application
-.dockerignore - This file tells Docker which files or directories it should ignore when building the image.
+* dockerfile - Specifies how the application is built and packaged
+* app.py - Python application
+* .dockerignore - This file tells Docker which files or directories it should ignore when building the image.
 
 # Step 1.	Create the Python Script
 Write a simple Python script (e.g., app.py) that you want to containerize.
