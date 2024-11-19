@@ -15,17 +15,17 @@ The Dockerfile tells Docker how to build and run your application in a container
 
 # Step 3. Build the Docker Image
 Once your Dockerfile is ready, you can build your Docker image by running the following command in the terminal:
-
+```
 docker build -t my-dockerized-python .
-
+```
 ![1](https://github.com/user-attachments/assets/4cdee44c-7b7e-40f4-b1a0-a1e6f1d81307)
 
 
 # Step 4. Test the Docker Container Locally
 After building the image, test it locally by running the following
-
+```
 docker run my-dockerized-python
-
+```
 Before building a Docker image through Visual Studio Code, you should launch Docker Desktop to ensure Docker is running properly. Make sure Docker Desktop is running.
 
 # Step 5. Check the Build in Docker Desktop
